@@ -29,6 +29,8 @@ exports.onCreatedScore = onDocumentCreated("users/{uid}/stocks/{stockId}", async
     }
   } catch (error) {
     console.error("Error updating user document:", error);
+    console.log("test");
   }
 });
+
 
